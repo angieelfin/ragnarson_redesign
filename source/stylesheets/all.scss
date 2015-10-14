@@ -1,0 +1,9 @@
+@import '_variables.scss';
+@import '_fonts.scss';
+
+// import sections styles
+@import 'sections/_header.scss';
+@import 'sections/_hero.scss';
+@import 'sections/_what_we_do.scss';
+@import 'sections/_contact.scss';
+@import 'sections/_footer.scss';
