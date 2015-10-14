@@ -1,0 +1,18 @@
+.button-ghost {
+  color: $color-brand;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 4px solid $color-brand;
+  width: 245px;
+  display: inline-table;
+  font-size: $font-content-big;
+  cursor: pointer;
+  padding: 0.8em;
+  transition: .3s all ease;
+
+  &:hover {
+    background: $color-brand;
+    color: $text-color-lightest;
+    transition: .3s all ease;
+  }
+}

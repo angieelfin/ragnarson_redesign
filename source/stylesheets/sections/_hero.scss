@@ -1,0 +1,33 @@
+.hero {
+  background-image: url('../images/hero/hero_bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  font-family: 'senregular';
+  height: 700px;
+  position: relative;
+}
+
+.hero-heading {
+  margin-top: 1.5em;
+  font-size: 55px;
+}
+
+.ruby-big {
+  background-image: url('../images/hero/ruby-big.png');
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 80%;
+  height: 200px;
+  width: 200px;
+}
+
+.ruby-small {
+  background-image: url('../images/hero/ruby-small.png');
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  height: 100px;
+  width: 100px;
+}
