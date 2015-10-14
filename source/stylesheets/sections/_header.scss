@@ -1,0 +1,38 @@
+.header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  float: right;
+  margin-bottom: 0;
+  margin-top: 1em;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $text-color-dark;
+  font-family: 'senregular';
+  font-size: 1em;
+  padding: 0 1.4em;
+
+  &:hover {
+    transition: .3s all ease;
+    color: $color-brand;
+  }
+}
+
+.logo {
+  margin: 1em;
+}
+
+@media only screen and (max-width: 1020px) {
+  .nav {
+    display: none;
+  }
+}
