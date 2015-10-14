@@ -1,0 +1,20 @@
+.section-info {
+  text-align: center;
+}
+
+.info-heading {
+  position: relative;
+  top: -10px;
+  background: $color-alt;
+  color: $text-color-lightest;
+  padding: 1em;
+  letter-spacing: 2px;
+}
+
+.info-paragraph {
+  display: block;
+  font-size: $font-content-big;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 2.5em 0 1.5em 0;
+}
