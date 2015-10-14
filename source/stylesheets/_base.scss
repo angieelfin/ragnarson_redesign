@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'senregular';
+}
+
+h2,
+h3 {
+  color: $color-alt;
+}
+
+.heading {
+  font-size: $font-heading;
+}
+
+.heading-medium {
+  font-size: $font-heading-medium;
+  padding-top: 1em;
+}

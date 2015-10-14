@@ -4,8 +4,9 @@
   background-position: center;
   text-align: center;
   font-family: 'senregular';
-  height: 700px;
+  height: 100vh;
   position: relative;
+  z-index: 1;
 }
 
 .hero-heading {
@@ -16,7 +17,7 @@
 .ruby-big {
   background-image: url('../images/hero/ruby-big.png');
   background-repeat: no-repeat;
-  position: fixed;
+  position: absolute;
   left: 80%;
   height: 200px;
   width: 200px;
@@ -25,9 +26,10 @@
 .ruby-small {
   background-image: url('../images/hero/ruby-small.png');
   background-repeat: no-repeat;
-  position: fixed;
+  position: absolute;
   top: 20%;
   left: 10%;
   height: 100px;
   width: 100px;
+  z-index:0;
 }

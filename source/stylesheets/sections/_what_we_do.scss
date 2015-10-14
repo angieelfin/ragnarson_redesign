@@ -1,0 +1,67 @@
+.section-what-we-do {
+  position: relative;
+}
+
+.signet-arrow {
+  display: block;
+  margin: 0 auto;
+}
+
+.about {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: $font-content-big;
+  padding: 2em 0 4em 0;
+
+  span {
+    font-family: 'senbold';
+    text-transform: uppercase;
+  }
+}
+
+.heading-section {
+  background: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+.half-screen-border {
+  position: absolute;
+  height: 70%;
+  width: 50%;
+  border-right: 2px solid $color-alt;
+}
+
+.ruby-icon {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+}
+
+.column-text {
+  padding-left: 5em;
+  margin: 0;
+}
+
+.services-container {
+  width: 100%;
+}
+
+.services-image {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 2em;
+}
+
+.services-paragraph {
+  font-size: $font-content-small;
+}
+
+.services-list {
+  font-size: $font-content-small;
+  list-style-type: none;
+}
