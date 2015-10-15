@@ -1,0 +1,51 @@
+.section-jobs {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.box-profession {
+  position: relative;
+  z-index: 1000;
+  display: inherit;
+  height: inherit;
+  text-align: center;
+  text-decoration: none;
+  padding: 2em;
+
+  &:hover {
+    background: #F2F0F1;
+  }
+}
+
+.profession-img {
+  height: 60px;
+  padding-bottom: 2em;
+}
+
+.box-description {
+  background: $color-alt;
+  color: white;
+  font-size: $font-content-big;
+  padding: 2em;
+  position: relative;
+  z-index: 1000;
+}
+
+.flex-centered {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 850px) {
+  .flex-centered {
+    display: block;
+  }
+}
+
+.timeline-paragraph {
+  &.outdented {
+    text-indent: -1em;
+  }
+}
