@@ -35,6 +35,12 @@
   border-right: 2px solid $color-alt;
 }
 
+@media only screen and (max-width: 549px) {
+  .half-screen-border {
+    display: none;
+  }
+}
+
 .ruby-icon {
   display: block;
   margin: 0 auto;
@@ -47,21 +53,27 @@
   margin: 0;
 }
 
-.services-container {
+@media only screen and (max-width: 549px) {
+  .column-text {
+    padding-left: 0;
+  }
+}
+
+.tilemline-container {
   width: 100%;
 }
 
-.services-image {
+.timeline-image {
   width: 100%;
   box-sizing: border-box;
   padding: 0 2em;
 }
 
-.services-paragraph {
+.timeline-paragraph {
   font-size: $font-content-small;
 }
 
-.services-list {
+.timeline-list {
   font-size: $font-content-small;
   list-style-type: none;
 }

@@ -25,3 +25,17 @@
 .margin-none {
   margin: 0;
 }
+
+.push-down-image {
+  margin-top: 20%;
+}
+
+.half-screen-border.full-height {
+  height: 100%;
+}
+
+@media only screen and (max-width: 549px) {
+  .push-down-image {
+    padding-top: 0;
+  }
+}
