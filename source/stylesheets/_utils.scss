@@ -9,3 +9,19 @@
 .text-center {
   text-align: center;
 }
+
+.color-alt {
+  color: $color-alt;
+}
+
+.color-light {
+  color: $text-color-light;
+}
+
+.color-lightest {
+  color: $text-color-lightest;
+}
+
+.margin-none {
+  margin: 0;
+}

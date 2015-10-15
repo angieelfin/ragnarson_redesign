@@ -1,0 +1,57 @@
+.footer {
+  position: relative;
+  top: -10em; //make town background overlap prev sections
+  height: 100vh;
+}
+
+.bg-town-up {
+  background-image: url('../images/town_muted.png');
+  width: 100%;
+  height: 300px;
+}
+
+.bg-town-down {
+  background-image: url('../images/town_muted.png');
+  transform: rotateX(180deg);
+  width: 100%;
+  height: 200px;
+}
+
+.email-contact {
+  background: $color-alt;
+  text-align: center;
+  padding: 20px;
+}
+
+.email-link {
+  font-size: $font-heading-small;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($text-color-light, 10%);
+  }
+}
+
+.social-icon-container {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+
+.social-icon-link {
+  color: $color-alt;
+  text-decoration: none;
+  transition: all .3s ease;
+  padding: 10px;
+
+  &:hover {
+    color: $color-brand;
+    transition: all .3s ease;
+  }
+}
+
+.footer-container {
+  position: relative;
+  top: -150px; //make town background overlap footer-contaniner
+}
