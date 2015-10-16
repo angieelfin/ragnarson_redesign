@@ -1,0 +1,196 @@
+[
+  {
+    "player": "Maciej Gałkiewicz",
+    "rank": "CEO, Co-owner",
+    "avatar": "macias.jpg",
+    "github": "mgalkiewicz",
+    "twitter": "mgalkiewicz"
+  },
+  {
+    "player": "Marcin Bajer",
+    "rank": "Co-owner",
+    "avatar": "marcin.jpg",
+    "github": "rrrodrigo",
+    "twitter": "rrrodrigo"
+  },
+  {
+    "player": "Grzesiek Kołodziejczyk",
+    "rank": "Co-owner",
+    "avatar": "grk.jpg",
+    "github": "grk",
+    "twitter": "_codefu"
+  },
+  {
+    "player": "Mariusz Pietrzyk",
+    "rank": "Co-owner",
+    "avatar": "wijet.jpg",
+    "github": "wijet",
+    "twitter": "wijet"
+  },
+  {
+    "player": "Oskar Szrajer",
+    "rank": "Co-owner",
+    "avatar": "oskar.jpg",
+    "github": "gotar",
+    "twitter": "oskarszrajer"
+  },
+  {
+    "player": "Adrian Chęciński",
+    "rank": "Developer",
+    "avatar": "adrian.jpg",
+    "github": "hash4di",
+    "twitter": "hash4di"
+  },
+  {
+    "player": "Michał Dulat",
+    "rank": "Developer",
+    "avatar": "michal_dulat.jpg",
+    "github": "michald",
+    "twitter": "michaldulat"
+  },
+  {
+    "player": "Karol Galanciak",
+    "rank": "Developer",
+    "avatar": "karol.jpg",
+    "github": "Azdaroth",
+    "twitter": "Azdaroth"
+  },
+  {
+    "player": "Jonasz Grochowski",
+    "rank": "Developer",
+    "avatar": "jonasz.jpg",
+    "github": "tensaioni"
+  },
+  {
+    "player": "Przemysław Kędzierski",
+    "rank": "Developer",
+    "avatar": "przemek.jpg",
+    "github": "p55"
+  },
+  {
+    "player": "Dominik Koślin",
+    "rank": "Graphic Designer",
+    "avatar": "dominik.jpg"
+  },
+  {
+    "player": "Artur Krzemiński-Freda",
+    "rank": "Developer",
+    "avatar": "arturk.jpg",
+    "github": "Fredar",
+    "twitter": "Akfreda"
+  },
+  {
+    "player": "Maciej Kubiak",
+    "rank": "Developer",
+    "avatar": "maciej_kubiak.jpg",
+    "github": "buffot",
+    "twitter": "maciej_kubiak"
+  },
+  {
+    "player": "Dominika Kucharska",
+    "rank": "Developer",
+    "avatar": "dominika.jpg",
+    "github": "misiaak"
+  },
+  {
+    "player": "Bartłomiej Kozal",
+    "rank": "Developer",
+    "avatar": "bkzl.jpg",
+    "github": "bkzl",
+    "twitter": "_bkzl"
+  },
+  {
+    "player": "Dawid Lenkiewicz",
+    "rank": "Developer",
+    "avatar": "dawid.jpg",
+    "github": "dawidlenkiewicz"
+  },
+  {
+    "player": "Agnieszka Lipniak",
+    "rank": "Headhunter",
+    "avatar": "agnieszka.jpg",
+    "twitter": "proatut"
+  },
+  {
+    "player": "Maciej Małecki",
+    "rank": "Developer",
+    "avatar": "maciek.jpg",
+    "github": "smt116",
+    "twitter": "smefju"
+  },
+  {
+    "player": "Piotr Marciniak",
+    "rank": "Developer",
+    "avatar": "mandaryn.jpg",
+    "github": "mandaryn"
+  },
+  {
+    "player": "Michał Marcinkowski",
+    "rank": "Developer",
+    "avatar": "michal_marcinkowski.jpg",
+    "github": "mmarcinkowski"
+  },
+  {
+    "player": "Barbara Niewiadomska",
+    "rank": "Office Manager",
+    "avatar": "basia.jpg"
+  },
+  {
+    "player": "Adam Okoń",
+    "rank": "Developer",
+    "avatar": "adam.jpg",
+    "github": "aokon"
+  },
+  {
+    "player": "Michał Podlecki",
+    "rank": "Developer",
+    "avatar": "michal.jpg",
+    "github": "michalpodlecki",
+    "twitter": "michal_podlecki"
+  },
+  {
+    "player": "Alina Scura",
+    "rank": "Headhunter",
+    "avatar": "alina.jpg",
+    "twitter": "alinascura"
+  },
+  {
+    "player": "Szymon Szypulski",
+    "rank": "System Administrator",
+    "avatar": "szymon.jpg",
+    "github": "szymonpk"
+  },
+  {
+    "player": "Stanisław Tuszyński",
+    "rank": "Developer",
+    "avatar": "stanislaw.jpg",
+    "github": "stuszynski",
+    "twitter": "R4yTr4cer"
+  },
+  {
+    "player": "Paweł Urbanek",
+    "rank": "Developer",
+    "avatar": "pawurb.jpg",
+    "github": "pawurb",
+    "twitter": "_pawurb"
+  },
+  {
+    "player": "Krzysztof Wawer",
+    "rank": "Developer",
+    "avatar": "krzysztof.jpg",
+    "github": "wafcio",
+    "twitter": "KrzysztofWawer"
+  },
+  {
+    "player": "Sebastian Wojtczak",
+    "rank": "Developer",
+    "avatar": "seba.jpg",
+    "github": "sabcio"
+  },
+  {
+    "player": "Antoni Wójcik",
+    "rank": "Developer",
+    "avatar": "antek.jpg",
+    "github": "atw"
+  }
+]

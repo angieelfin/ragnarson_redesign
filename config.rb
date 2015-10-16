@@ -46,12 +46,15 @@
 #     "Helping"
 #   end
 # end
+require 'lib/custom_helpers'
 
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+helpers CustomHelpers
 
 # Build-specific configuration
 configure :build do

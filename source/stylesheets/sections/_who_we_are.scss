@@ -1,0 +1,54 @@
+.container-team {
+  display: inline-block;
+  text-align: center;
+}
+
+.member-name {
+  font-size: $font-content-small;
+  margin-bottom: 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 1em;
+
+  .icon-twitter,
+  .icon-github {
+    color: $color-alt;
+    font-size: $font-content-small;
+
+    &:hover {
+      color: $color-brand;
+    }
+  }
+}
+
+// correct skeleton default setup for first child margin-left 0
+.column:first-child {
+  margin-left: 4%;
+}
+.column:nth-child(n) {
+  margin-left: 3%;
+}
+
+// grid breakpoints for who we are section
+@media only screen and (max-width: 1124px) {
+  .section-who-we-are .columns.column {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .section-who-we-are .columns.column {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-who-we-are .columns.column {
+    width: 100%;
+  }
+}
