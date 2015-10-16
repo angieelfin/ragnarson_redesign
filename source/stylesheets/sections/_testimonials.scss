@@ -18,7 +18,6 @@ $avatars: sebastien rob marius carsten;
 .testimonial-link {
   text-decoration: none;
   color: $color-brand;
-  font-weight: 500;
 
   &:hover {
     color: lighten($color-brand, 20%);
