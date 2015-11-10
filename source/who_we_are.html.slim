@@ -1,1 +1,16 @@
-== partial "sections-slim/who_we_are"
+div class="section-who-we-are"
+  h2 class="heading text-center" meet our team!
+  div class="container max-width push-down"
+    div class="container-team push-down"
+        - data.team.each do |card|
+          div class="three columns column"
+            = card_image_tag card.avatar
+            h6 class="member-name"
+              = card.player
+            p class="color-alt margin-none"
+              = card.rank
+            ul class="social-media"
+              - if card.github
+                li= link_to_github card.github
+              - if card.twitter
+                li= link_to_twitter card.twitter
