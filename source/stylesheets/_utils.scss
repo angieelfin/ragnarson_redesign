@@ -47,6 +47,10 @@
   height: 100%;
 }
 
+.position-relative {
+  position: relative;
+}
+
 @media only screen and (max-width: 549px) {
   .push-down-image {
     padding-top: 0;
