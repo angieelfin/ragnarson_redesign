@@ -7,7 +7,7 @@ $(document).ready(function(){
     var wScroll = $(this).scrollTop();
     var rubyIcon = $('.js-ruby-icon');
 
-    var sectionTop = $('.heading');
+    var sectionTop = $('.js-signet-arrow-top');
     var sectionBottom = $('.section-info');
 
     var pointTop = sectionTop.offset().top - sectionTop.height();

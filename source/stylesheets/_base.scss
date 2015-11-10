@@ -4,18 +4,13 @@ body {
   height: 100vh;
 }
 
-h2,
-h3,
-h4 {
-  color: $color-alt;
-}
-
-.heading {
+h2 {
   font-size: $font-heading;
   letter-spacing: 1px;
 }
 
-.heading-medium {
-  font-size: $font-heading-medium;
-  padding-top: 1em;
+h2,
+h3,
+h4 {
+  color: $color-alt;
 }
