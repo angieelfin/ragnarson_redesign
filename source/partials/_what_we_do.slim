@@ -1,24 +1,25 @@
 div class="section-what-we-do"
-  img class="signet-arrow" src="../images/logo/signet.png"
+  = image_tag 'logo/signet.png', class: 'signet-arrow'
+
   p class="about"
     | We are Ruby and JavaScript developers.
     br
-    span ragnarson
-    | specializes in working for western startups in the beginning stage of
-      their development. It means that we can build a new product from the
-      scratch with the freedom to choose the right technology for the project..
+    | <span>ragnarson</span> specializes in working for western startups
+      in the beginning stage of their development. It means that we can
+      build a new product from the scratch with the freedom to choose
+      the right technology for the project..
     | We are here for you since 2006.
 
   h2 class="heading heading-primary"
     | see what we do!
-  img src="../images/ruby_icon.png" class="js-ruby-icon static-top"
+  = image_tag 'ruby_icon.png', class: 'js-ruby-icon static-top'
 
   div class="half-screen-border"
 
   div class="container timeline-container"
     div class="row"
       div class="six columns column-image"
-        img src="../images/services/web-2x.png" class="timeline-image"
+        = image_tag 'services/web-2x.png', class: 'timeline-image'
       div class="six columns column-text"
         h3 class="heading-medium"
           | web applications
@@ -28,19 +29,19 @@ div class="section-what-we-do"
             basis. Other technologies and frameworks are chosen individually
             for each project. From business point of view most of our work
             fall into one of the following scenarios:
-          ul class="timeline-list"
-            li
-              | - rapid MVP development
-            li
-              | - long-term development of post MVP products
-            li
-              | - maintenance of existing and legacy projects
-            li 
-              | - eaching and passing development to your local team
+        ul class="timeline-list"
+          li
+            | - rapid MVP development
+          li
+            | - long-term development of post MVP products
+          li
+            | - maintenance of existing and legacy projects
+          li 
+            | - eaching and passing development to your local team
 
     div class="row"
       div class="six columns column-image"
-        img src="../images/services/hosting-2x.png" class="timeline-image"
+        = image_tag 'services/hosting-2x.png', class: 'timeline-image'
       div class="six columns column-text"
         h3 class="heading-medium"
           | hosting
@@ -53,8 +54,8 @@ div class="section-what-we-do"
 
     div class="row"
       div class="six columns column-image"
-        img(src="../images/services/infrastructure-2x.png"
-            class="timeline-image image-position")
+        = image_tag('services/infrastructure-2x.png',
+                    class: 'timeline-image image-position')
       div class="six columns column-text"
         h3 class="heading-medium"
           | infrastructure
