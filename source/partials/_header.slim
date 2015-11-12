@@ -1,21 +1,20 @@
 header class="header"
-  div class="brand"
-    img class="logo" alt="logo" src="images/logo/logo.png"
+  =image_tag "logo/logo.png", class: "logo", alt: "logo"
   ul class="nav"
     li
-      a href="index.html" class="nav-link"
+      =link_to "index.html", class: "nav-link"
         | what we do
     li
-      a href="what_we_did.html" class="nav-link"
+      =link_to "what_we_did.html",class: "nav-link"
         | what we did
     li
-      a href="who_we_are.html" class="nav-link"
+      =link_to "who_we_are.html",class: "nav-link"
         | who we are
-      a href="/#contact" class="nav-link"
+      =link_to "/#contact",class: "nav-link"
         | contact us
     li class="push-left"
-      a href="jobs.html" class="nav-link"
+      =link_to "jobs.html",class: "nav-link"
         | jobs
     li
-      a href="" class="nav-link"
+      =link_to "",class: "nav-link"
         | blog
