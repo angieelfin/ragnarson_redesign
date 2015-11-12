@@ -54,15 +54,13 @@
   }
 }
 
-// TODO: rename column-text to time-section-text in slim templates
-.timeline-section-text,
-.column-text {
+.timeline-section-text {
   padding-left: 5em;
   margin: 0;
 }
 
 @media only screen and (max-width: 549px) {
-  .column-text {
+  .timeline-section-text {
     padding-left: 0;
   }
 }
@@ -71,11 +69,6 @@
   width: 100%;
   box-sizing: border-box;
   padding-right: 2em;
-}
-
-// TODO: move class to utils, change name
-.timeline-paragraph {
-  font-size: $font-content-small;
 }
 
 .timeline-list {
