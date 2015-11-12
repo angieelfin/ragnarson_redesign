@@ -8,7 +8,7 @@ $(document).ready(function(){
     var rubyIcon = $('.js-ruby-icon');
 
     var sectionTop = $('.js-signet-arrow-top');
-    var sectionBottom = $('.section-info');
+    var sectionBottom = $('.js-signet-arrow-bottom');
 
     var pointTop = sectionTop.offset().top - sectionTop.height();
     var pointBottom = sectionBottom.offset().top - sectionBottom.height();
