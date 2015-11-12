@@ -4,13 +4,13 @@
   height: 600px;
 }
 
-.bg-town-up {
+.footer-bg-town-up {
   background-image: url('../images/town_muted.png');
   width: 100%;
   height: 300px;
 }
 
-.bg-town-down {
+.footer-bg-town-down {
   background-image: url('../images/town_muted.png');
   transform: rotateX(180deg);
   width: 100%;
@@ -32,7 +32,7 @@
   }
 }
 
-.social-icon-container {
+.social-container-content {
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -51,7 +51,7 @@
   }
 }
 
-.footer-container {
+.social-container {
   position: relative;
   top: -150px; //make town background overlap footer-contaniner
 }
