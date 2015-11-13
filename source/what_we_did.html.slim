@@ -1,25 +1,25 @@
-div class="section-what-we-do"
-  h2 class="heading heading-primary"
+div class="position-relative"
+  h2 class="heading heading-primary has-signet-arrow"
       | see what we did!
   img src="../images/ruby_icon.png" class="ruby-icon"
-  / div class="half-screen-border full-height"
+  div class="half-screen-border full-height"
   div class="container timeline-container timeline-image"
   - data.projects.each do |project|
     div class="row"
       div class="six columns"
-        = link_to project_image_tag(project.thumbnail), project.link
+        = link_to project_image_tag(project.thumbnail), project.link, class: "project-image"
       div class="six columns timeline-section-text"
         h3 class="heading-medium"
-          = link_to project.name, project.link
+          = link_to project.name, project.link, class: "project-link"
         p class="font-small"
           = project.description
         
         - if project.testimonial
           div class="testimonial"
-            p class="quotation color-alt"
+            p class="color-alt"
               = project.testimonial.text
             div class="quotation-author"
               = testimonial_image_tag project.testimonial.avatar
-              ' #{project.testimonial.author},
-              = link_to project.name, project.link
+              ' #{project.testimonial.author}, 
+              = link_to project.name, project.link, class: "brand-link"
               ' , #{project.testimonial.year}

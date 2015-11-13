@@ -1,4 +1,4 @@
-.avatar {
+.quote-avatar {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -7,19 +7,18 @@
   margin-right: 10px;
 }
 
-$avatars: sebastien rob marius carsten;
-
-@each $avatar in $avatars {
-  .avatar-#{$avatar} {
-    background-image: url('../images/avatars/#{$avatar}.jpg');
-  }
+.project-image img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 2em;
+  width: 90%;
 }
 
-.testimonial-link {
+.project-link {
   text-decoration: none;
-  color: $color-brand;
+  color: $color-alt;
 
   &:hover {
-    color: lighten($color-brand, 20%);
+    color: $color-brand;
   }
 }

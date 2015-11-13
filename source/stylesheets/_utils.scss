@@ -30,6 +30,16 @@
   color: $text-color-dark;
 }
 
+
+.brand-link {
+  text-decoration: none;
+  color: $color-brand;
+
+  &:hover {
+    color: lighten($color-brand, 20%);
+  }
+}
+
 .font-small {
   font-size: $font-content-small;
 }
