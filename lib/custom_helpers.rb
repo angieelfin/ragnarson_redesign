@@ -1,7 +1,19 @@
 module CustomHelpers
 
+  def last_project?(project)
+    project == data.projects.last
+  end
+
+  def project_image_tag(image)
+    image_tag "projects/#{image}.png"
+  end
+
+  def testimonial_image_tag(avatar)
+    image_tag "projects/testimonials/#{avatar}", class: 'quote-avatar'
+  end
+
   def card_image_tag(avatar)
-      image_tag "team/#{avatar}", class: 'card-avatar'
+    image_tag "team/#{avatar}", class: 'card-avatar'
   end
 
   def link_to_github(nick)
